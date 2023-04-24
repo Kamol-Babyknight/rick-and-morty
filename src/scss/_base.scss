@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: ($default-root-font-size) * 1px;
+    @include scalable-desktop {
+        font-size: vw($default-root-font-size);
+    }
+
+    @include mobile {
+        font-size: vmin($default-root-font-size);
+    }
+}
+
+html,
+body{
+    min-height: 100%;
+    width: 100%;
+    display: block;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+
+select{
+    appearance: none;
+    background-image: url('./../images/svg/arrow-drop-down.svg') ;
+    background-repeat: no-repeat;
+    background-position: calc(100% - rem(3)) center;
+}
+option{
+    font-family: 'roboto';
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    font-style: normal;
+    font-size: rem(16);
+    line-height: rem(19);
+
+}
+.site-container{
+    min-height: 100vh;
+    padding-top: rem(60);
+}
+
+.site-logo{
+    width: rem(600);
+    height: rem(200);
+    margin: 0 auto;
+    margin-bottom: rem(16);
+}
+
+.header{
+    width: 100%;
+    box-shadow: rem(-2) 0 rem(8) rem(2) rgba(0, 0, 0, 0.1);
+    margin-bottom: rem(26);
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+ @font-face {
+    font-family: 'roboto';
+    src: url('/fonts/Roboto/Roboto-Bold.woff2')format('woff2'),
+    url("/fonts/Roboto/Roboto-Bold.woff")format("woff");
+    font-weight: 700;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'roboto';
+    src: url('/fonts/Roboto/Roboto-Medium.woff2')format('woff2'),
+    url("/fonts/Roboto/Roboto-Medium.woff")format("woff");
+    font-weight: 500;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'roboto';
+    src: url('/fonts/Roboto/Roboto-Regular.woff2')format('woff2'),
+    url("/fonts/Roboto/Roboto-Regular.woff")format("woff");
+    font-weight: 400;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'karla';
+    src: url('/fonts/Karla/static/Karla-Bold.woff2')format('woff2'),
+    url('/fonts/Karla/static/Karla-Bold.woff')format('woff');
+    font-weight: 700;
+    font-style: normal;
+ }
+.locations-main-img-wrap{
+    width: rem(326);
+    height: rem(202);
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: rem(24);
+    margin-top: rem(-10);
+}
+
+

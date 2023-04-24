@@ -1,0 +1,14 @@
+.characters{
+margin: 0 auto;
+margin-bottom: rem(48);
+max-width: rem(1020);
+width: 100%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: rem(20);
+    row-gap: rem(24);
+    list-style: none;
+}

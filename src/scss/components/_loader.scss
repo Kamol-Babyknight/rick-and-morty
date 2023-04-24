@@ -1,0 +1,29 @@
+.loader {
+  width: rem(154);
+  height: rem(36);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f9fe;
+  box-shadow: 0 rem(3) rem(5) rgba(0, 0, 0, 0.2),
+    0 rem(1) rem(18) rgba(0, 0, 0, 0.12), 0 rem(6) rem(10) rgba(0, 0, 0, 0.14);
+  box-shadow: 0 rem(6) rem(10) 0 rgba(0, 0, 0, 0.14);
+
+  box-shadow: 0 rem(1) rem(18) 0 rgba(0, 0, 0, 0.12);
+
+  box-shadow: 0 rem(3) rem(5) 0px rgba(0, 0, 0, 0.2);
+  border-radius: rem(4);
+  margin-bottom: rem(50);
+}
+
+.loader__button {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: rem(14);
+  line-height: rem(16);
+  color: rgba(33, 150, 243, 1);
+  border: none;
+}
