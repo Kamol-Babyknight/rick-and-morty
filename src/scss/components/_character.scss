@@ -1,0 +1,40 @@
+.card {
+  width: rem(240);
+  min-height: rem(128);
+  box-shadow: 0 rem(1) rem(5) rgba(0, 0, 0, 0.2),
+    0 rem(3) rem(4) rgba(0, 0, 0, 0.12), 0 rem(2) rem(4) rgba(0, 0, 0, 0.14);
+  border-radius: rem(4);
+    color: rgba(250, 250, 250, 1);
+  background: #fafafa;
+  display: flex;
+}
+
+.card__img-wrap {
+  width: rem(240);
+  height: rem(168);
+}
+
+.card__info {
+  padding: rem(12) rem(16);
+}
+
+.characters__name-wrap {
+  margin-bottom: rem(1);
+}
+.characters__name{
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: rem(20);
+  line-height: rem(30);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.characters__type{
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: rem(14);
+  line-height: rem(21);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+

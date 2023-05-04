@@ -1,0 +1,38 @@
+.locations {
+  max-width: rem(1020);
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: rem(48);
+}
+.locations__link {
+  display: flex;
+  flex-direction: column;
+  min-height: 12.8rem;
+  margin: 0 auto;
+}
+
+.locations__planet-wrap {
+  margin: auto;
+  margin-bottom: rem(1);
+}
+.locations__def-wrap {
+  margin: auto;
+  margin-top: 0;
+}
+.locations__planet-name {
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: rem(20);
+  font-style: normal;
+  line-height: rem(30);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.locations__def {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: rem(14);
+  line-height: rem(21);
+  color: rgba(0, 0, 0, 0.6);
+}

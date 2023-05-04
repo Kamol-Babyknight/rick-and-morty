@@ -1,0 +1,28 @@
+
+.menu{
+    display: flex;
+    max-width: rem(986);
+    width: 100%;
+    margin: 0 rem(210);
+    justify-content: space-between;
+}
+.menu__img-wrap{
+    width: rem(46);
+    height: rem(49);
+}
+
+.menu__links{
+    display: flex;
+    gap: rem(24);
+    margin: auto 0;
+}
+.menu__link{
+    color: rgba(0, 0, 0, 1);
+}
+
+.menu__item-name{
+    font-family: 'karla';
+    font-weight: 700;
+    font-size: rem(18);
+    line-height: rem(21);
+}

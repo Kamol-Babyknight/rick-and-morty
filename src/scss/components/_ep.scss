@@ -1,0 +1,41 @@
+.ep {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: rem(240);
+  
+}
+.ep__name-wrap {
+  margin: 0 auto;
+}
+
+.ep__date-wrap {
+  margin: 0 auto;
+}
+
+.ep__season-wrap {
+  margin: 0 auto;
+}
+.ep__name {
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: rem(20);
+  line-height: rem(30);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.ep__date {
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: rem(14);
+  line-height: rem(21);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.ep__season {
+  font-family: "roboto";
+  font-weight: 700;
+  font-size: rem(14);
+  line-height: rem(21);
+  color: rgba(0, 0, 0, 0.6);
+}

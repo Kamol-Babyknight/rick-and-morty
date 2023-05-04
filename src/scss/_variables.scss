@@ -1,0 +1,13 @@
+@use "sass:math";
+// font-size
+$default-root-font-size:10;
+
+// breakpoints
+$min-desktop-size: 540px;
+$base-desktop-size: 1440px;
+$base-desktop-height:1024px;
+$max-desktop-size: 1920px;
+$max-desktop-height:1280px;
+$mobile-screen: 539.8px;
+$min-mobile-screen: 375px;
+$diff-height:  math.div(strip-units($max-desktop-height),strip-units($base-desktop-height));
