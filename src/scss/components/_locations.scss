@@ -4,14 +4,20 @@
   margin: 0 auto;
   margin-bottom: rem(48);
 }
-
-.locations__planet-wrap{
-    margin: auto;
-    margin-bottom: rem(1);
+.locations__link {
+  display: flex;
+  flex-direction: column;
+  min-height: 12.8rem;
+  margin: 0 auto;
 }
-.locations__def-wrap{
-    margin: auto;
-    margin-top: 0;
+
+.locations__planet-wrap {
+  margin: auto;
+  margin-bottom: rem(1);
+}
+.locations__def-wrap {
+  margin: auto;
+  margin-top: 0;
 }
 .locations__planet-name {
   font-family: "roboto";
